@@ -1,5 +1,4 @@
 const request = require('request');
-const fs = require('fs');
 const url = process.argv.slice(2);
 const API = 'https://api.thecatapi.com/v1/breeds/search?q=';
 const catSearch = API.concat(url);
